@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff4c4c;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-color: red;
+}
+
+.info h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.info h1 span, .info h2 span {
+    color: #ff4c4c;
+}
+
+.info h2 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.info p {
+    font-size: 16px;
+    margin: 20px 0;
+    color: #aaa;
+    max-width: 500px;
+}
+
+.social-links {
+    margin: 20px 0;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff4c4c;
+}
+
+.hire-btn {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hire-btn:hover {
+    background-color: #ff1a1a;
+}
